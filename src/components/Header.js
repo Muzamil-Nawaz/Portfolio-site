@@ -13,6 +13,7 @@ function Header() {
       <a href="#" className="logo">
         Muzamil Nawaz
       </a>
+      
       <div className="toggle"></div>
 
       <nav>
@@ -21,13 +22,13 @@ function Header() {
             <a href="#home">Home </a>
           </li>
           <li>
-            <a href="#home">About </a>
+            <a href="#about">About </a>
           </li>
           <li>
             <a href="#home">Blog </a>
           </li>
           <li>
-            <a href="#home">Projects </a>
+            <a href="#projects">Projects </a>
           </li>
           <li>
             <a href="#home">Contact </a>

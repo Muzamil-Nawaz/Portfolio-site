@@ -20,9 +20,10 @@ function DisplaySkills() {
 
     const skills = [
         {"skill":"Java","logo":""},
-        {"skill":"Python","logo":""},
         {"skill":"Spring Boot","logo":""},
+        {"skill":"Android","logo":""},
         {"skill":"React JS","logo":""},
+        {"skill":"Python","logo":""},
         {"skill":"Bootstrap","logo":""}
         
     ]
@@ -38,7 +39,7 @@ function DisplaySkills() {
 
     return (
         <section className="skills-section">
-            <h2>Technology, I work with</h2>
+            <h2>Technologies, I work with</h2>
             <div className="skill-cards">
             {showSkills()}
             </div>

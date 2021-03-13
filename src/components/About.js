@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <section>
+        <section className="about-section">
            <img src={process.env.PUBLIC_URL + "/images/computer.svg"} />
            <div className="info">
            <h2>I am Software Developer</h2>
@@ -16,6 +16,7 @@ so I have relevant experience with different domain specific technologies too.
      </div>
 
         </section>
+        
     )
 }
 
