@@ -133,7 +133,6 @@ header ul li a:hover {
   color: #0b5abd;
   width: 80%;
   font-size: 3em;
-  animation:infoTitle .5s linear ;
 }
 
 .about-section h4 {
@@ -411,25 +410,25 @@ header ul li a:hover {
 }
 
 /* /// Animations */
-
+/* 
 @keyframes infoTitle {
   0% { transform: translateX(-200px); }
 	25% { transform: translateX(-150px); }
 	50% { transform: translateX(-75px); }
 	100% { transform: translateX(0px); }
-}
+} */
 
 @keyframes infoPara {
-  0% { transform: translateY(400px); }
-	25% { transform: translateY(300px); }
-	50% { transform: translateY(150px); }
-	100% { transform: translateY(0px); }
+  0% { transform: translateY(400px); opacity:.25 }
+	25% { transform: translateY(300px); opacity:.5}
+	50% { transform: translateY(150px); opacity:.75}
+	100% { transform: translateY(0px); opacity:1}
 }
 
 
 @keyframes infoImage {
-  0% { transform: translateX(400px); }
-	25% { transform: translateX(300px); }
-	50% { transform: translateX(150px); }
-	100% { transform: translateX(0px); }
+  0% { transform: translateX(400px); opacity:.25 }
+	25% { transform: translateX(300px); opacity:.5 }
+	50% { transform: translateX(150px); opacity:.75}
+	100% { transform: translateX(0px); opacity:1}
 }
