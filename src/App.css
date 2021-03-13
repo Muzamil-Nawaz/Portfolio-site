@@ -133,6 +133,7 @@ header ul li a:hover {
   color: #0b5abd;
   width: 80%;
   font-size: 3em;
+  animation:infoTitle .5s linear ;
 }
 
 .about-section h4 {
@@ -146,6 +147,7 @@ header ul li a:hover {
   width: 100%;
   font-family: Open Sans, sans-serif;
   color: #02382cee;
+  animation:infoPara 1s linear ;
 }
 
 .about-section img {
@@ -153,9 +155,7 @@ header ul li a:hover {
   flex:40%;
   height: 400px;
   padding: 50px;
-  transform:translateX(4);
-  transition-delay: .5s;
-  animation: info 3s linear;
+  animation: infoImage 1s linear;
 }
 
 /* Skills Section css */
@@ -195,6 +195,8 @@ header ul li a:hover {
   margin: 100px;
   text-align: center;
   background: transparent;
+  animation:infoPara 1s linear ;
+
 }
 
 .skill-card h3 {
@@ -411,31 +413,23 @@ header ul li a:hover {
 /* /// Animations */
 
 @keyframes infoTitle {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% { transform: translateX(-200px); }
+	25% { transform: translateX(-150px); }
+	50% { transform: translateX(-75px); }
+	100% { transform: translateX(0px); }
 }
 
+@keyframes infoPara {
+  0% { transform: translateY(400px); }
+	25% { transform: translateY(300px); }
+	50% { transform: translateY(150px); }
+	100% { transform: translateY(0px); }
+}
+
+
 @keyframes infoImage {
-  0% {
-    left: 300px;
-  }
-  25% {
-    left: 250;
-  }
-  50% {
-    left: 150px;
-  }
-  75% {
-    left: 75px;
-  }
-  100% {
-    left: 0px;
-  }
+  0% { transform: translateX(400px); }
+	25% { transform: translateX(300px); }
+	50% { transform: translateX(150px); }
+	100% { transform: translateX(0px); }
 }
