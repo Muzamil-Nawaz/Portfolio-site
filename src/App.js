@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import About from './components/About'
+import DisplaySkills from './components/DisplaySkills'
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.min.js";
@@ -8,13 +9,10 @@ import {Route, BrowserRouter as Router} from 'react-router-dom'
 function App() {
   return (
     
-    <div className="App">
-    <Router>
-     
-      
-       <Route path="/" component= {Header }/>
-        
-      </Router>
+    <div className="root">
+      <Header />
+      <About />
+      <DisplaySkills />
     </div>
   );
 }

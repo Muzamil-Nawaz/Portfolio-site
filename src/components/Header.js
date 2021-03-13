@@ -13,30 +13,27 @@ function Header() {
       <a href="#" className="logo">
         Muzamil Nawaz
       </a>
-      <Navbar  expand="md">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav >
-            <ul>
-              <li>
-                <a href="#home">Home </a>
-              </li>
-              <li>
-                <a href="#home">About </a>
-              </li>
-              <li>
-              <a href="#home">Blog </a>
-              </li>
-              <li>
-              <a href="#home">Projects </a>
-              </li>
-              <li>
-              <a href="#home">Contact </a>
-              </li>
-            </ul>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <div className="toggle"></div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home </a>
+          </li>
+          <li>
+            <a href="#home">About </a>
+          </li>
+          <li>
+            <a href="#home">Blog </a>
+          </li>
+          <li>
+            <a href="#home">Projects </a>
+          </li>
+          <li>
+            <a href="#home">Contact </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
