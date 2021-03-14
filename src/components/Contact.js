@@ -5,10 +5,7 @@ function Contact() {
         <div id="contact" className="contact-section">
         <div className="container">
             <h2>Contact me</h2>
-            {/* <div className="contact-buttons">
-                <button>Github</button>
-                <button>LinkedIn</button>
-            </div> */}
+            
             <div className="row100">
                 <div className="col">
                     <div className="inputBox">
