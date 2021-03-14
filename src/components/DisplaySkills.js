@@ -21,9 +21,13 @@ function DisplaySkills() {
     const skills = [
         {"skill":"Java","logo":""},
         {"skill":"Spring Boot","logo":""},
-        {"skill":"Android","logo":""},
+        {"skill":"Spring","logo":""},
+        {"skill":"MySQL","logo":""},
         {"skill":"React JS","logo":""},
+        {"skill":"Android","logo":""},
         {"skill":"Python","logo":""},
+        {"skill":"HTML 5","logo":""},
+        {"skill":"CSS 3","logo":""},
         {"skill":"Bootstrap","logo":""}
         
     ]
@@ -38,7 +42,7 @@ function DisplaySkills() {
 
 
     return (
-        <section className="skills-section">
+        <section id="skills" className="skills-section">
             <h2>Technologies, I work with</h2>
             <div className="skill-cards">
             {showSkills()}

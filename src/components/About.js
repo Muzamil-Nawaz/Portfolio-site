@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
     return (
-        <section className="about-section">
-           <img src={process.env.PUBLIC_URL + "/images/computer.svg"} />
+        <section id="about" className="about-section">
+           <img src={process.env.PUBLIC_URL + "/images/computer.svg"} alt="" />
            <div className="info">
            <h2>I am Software Developer</h2>
                     <p>

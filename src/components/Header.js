@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
-    <header>
+    <header id="#">
       <img
         src={process.env.PUBLIC_URL + "/images/banner.jpg"}
         className="banner"
@@ -14,24 +12,24 @@ function Header() {
         Muzamil Nawaz
       </a>
       
-      <div className="toggle"></div>
+      <div ><button id="toggle" className="toggle"></button></div>
 
       <nav>
         <ul>
           <li>
-            <a href="#home">Home </a>
+            <a href="#">Home </a>
           </li>
           <li>
             <a href="#about">About </a>
           </li>
           <li>
-            <a href="#home">Blog </a>
+            <a href="#skills">Skills </a>
           </li>
           <li>
             <a href="#projects">Projects </a>
           </li>
           <li>
-            <a href="#home">Contact </a>
+            <a href="#contact">Contact </a>
           </li>
         </ul>
       </nav>

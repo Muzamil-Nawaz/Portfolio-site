@@ -100,10 +100,14 @@ header ul li a {
   padding: 10px 15px;
   font-size: 1.2em;
   text-decoration: none;
+  transition: .5s;
 }
 
 header ul li a:hover {
-  color: brown;
+  color: green;
+  font-size: 1.5em;
+
+
 }
 
 .about-section {
@@ -114,10 +118,7 @@ header ul li a:hover {
   align-items: space-between;
   width: 100%;
   min-height: 500px;
-  background-color: #77aa77;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #03080a;
   border-bottom: 2px solid transparent;
 }
 
@@ -138,14 +139,12 @@ header ul li a:hover {
 .about-section h4 {
   margin-top: 10px;
   width: 80%;
-  font-size: 1.5em;
 }
 .about-section p {
   font-size: 1.5em;
-  font-weight: bold;
   width: 100%;
   font-family: Open Sans, sans-serif;
-  color: #02382cee;
+  color: white;
   animation:infoPara 1s linear ;
 }
 
@@ -206,7 +205,7 @@ header ul li a:hover {
 
 .skill-card img {
   width: 200px;
-  height: auto;
+  height: 200px;
   object-fit: contain;
 }
 
@@ -214,11 +213,10 @@ header ul li a:hover {
 
 .projects-section {
   width: 100%;
-  background-color: #77aa77;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover;
-  margin: 0;
+  background-color: #ff9d00;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;margin: 0;
   height: auto;
   text-align: center;
   border-bottom: 2px solid transparent;
@@ -227,7 +225,7 @@ header ul li a:hover {
 .projects-section h2 {
   font-size: 3em;
   padding-top: 100px;
-  color: darkgreen;
+  color: white;
 }
 
 .project-cards {
@@ -242,6 +240,8 @@ header ul li a:hover {
   flex: 25%;
   max-width: 25%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  border-radius: 10px;
   padding:10px;
   margin: 0 50px 50px 50px;
   text-align: center;
@@ -256,48 +256,171 @@ header ul li a:hover {
   object-fit: contain;
 }
 
+.project-card h1{
+  color:brown
+}
+
 .project-card button {
   border: 1px solid white;
-  border-radius: 10%;
+  border-radius: 10px;
   outline: 0;
   padding: 12px;
   margin: 10px;
   color: white;
-  background-color: rgb(22, 21, 11);
+  background-color: black;
   text-align: center;
   cursor: pointer;
   width: 70%;
   font-size: 18px;
   transition: 0.5s;
+  opacity:.5;
 }
 .project-card button:hover {
-  opacity: 0.5;
+  opacity: 1;
   color: white;
   background-color: green;
   width: 80;
 }
 
+
+
+/* Contact Form Css */
+
+.contact-section{
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+  background-color: #03080a;
+  min-height:500px;
+  
+}
+
+.container{
+  width:80%;
+  padding:20px;
+
+}
+.container h2{
+  width: 100%;
+  color:#45f3ff;
+  font-size:36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container .row100{
+  position:relative;
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(autofit,minmax(300px,1fr));
+}
+
+.container .row100 .col{
+  position:relative;
+  width:100%;
+  padding: 0 10px;
+  margin:30px 0 10px;
+  transition:.5s;
+}
+
+.container .row100 .inputBox{
+  position:relative;
+  width:100%;
+  height:40px;
+  color:#45f3ff;
+
+
+}
+
+.container .row100 .inputBox input,
+.container .row100 .inputBox.textarea textarea{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:transparent;
+  box-shadow: none;
+  border:none;
+  outline:none;
+  font-size:18px;
+  padding:0 10px;
+  z-index:1;
+  color:#000;
+}
+
+.container .row100 .inputBox .text{
+  position:absolute;
+  top:0;
+  left:0;
+  line-height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+  display: block;
+  transition:.5s;
+  pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus + .text,
+.container .row100 .inputBox input:valid + .text{
+  top:-35px;
+  left:-10px;
+}
+
+.container .row100 .inputBox .line{
+  position:absolute;
+  bottom: 0;
+  display:block;
+  width: 100%;
+  height:2px;
+  background:#45f3ff;
+  transition:.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus ~ .line,
+.container .row100 .inputBox input:valid ~ .line{
+  height:100%;
+}
+
+.container .row100 .inputBox.textarea{
+  position:relative;
+  width:100%;
+  height:100px;
+  padding:10px 0;
+}
+.container .row100 .inputBox.textarea textarea{
+  height:100%;
+  resize:none;
+}
+
+
+.container .row100 .inputBox textarea:focus + .text,
+.container .row100 .inputBox textarea:valid + .text{
+  top: -35px;
+  left: -10px;
+}
+
+.container .row100 .inputBox textarea:focus ~ .line,
+.container .row100 .inputBox textarea:valid ~ .line{
+  height:100%;
+}
+
+.container input[type="submit"]{
+  border:none;
+  padding:7px 35px;
+  cursor:pointer;
+  outline:none;
+  background:#45feff;
+  color:#000;
+  font-size: 18px;
+  border-radius: 2px;
+
+}
+
 /* Responive CSS */
 
-@media (max-width: 850px) {
-
-  .about-section img{
-    flex:80%;
-    max-width:80%;
-    
-  }
-  .about-section info{
-    flex:100%;
-    max-width:100%;
-
-  }
-  .skills-section h2 {
-    margin-top: 0;
-  }
-  .skills-cards {
-    flex: 70%;
-    max-width: 70%;
-  }
+@media (max-width: 950px) {
+  
   header.sticky .logo {
     left: 40px;
     font-size: 1em;
@@ -308,13 +431,14 @@ header ul li a:hover {
 
   header.sticky .toggle {
     position: fixed;
-    top: 15px;
-    right: 40px;
+    top: 30px;
+    right: 20px;
+    bottom:30px;
     width: 50px;
-    height: 40px;
+    height: 50px;
     cursor: pointer;
-    background: #fff url("menu.png");
-    background-size: 30px;
+    background:  #fff url("menu.png");
+    background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -324,6 +448,34 @@ header ul li a:hover {
     opacity: 0;
     visibility: hidden;
   }
+
+  .about-section img{
+    flex:50%;
+    max-width:50%;
+    
+  }
+  .about-section .info{
+    flex:60%;
+    max-width:60%;
+
+  }
+  .skills-section h2 {
+    margin-top: 0;
+  }
+  
+  .skills-card {
+    
+    flex:50%;
+    max-width: 50%
+    
+  }
+  
+  .skill-card img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+  }
+
   .projects-section {
     text-align: left;
   }
@@ -333,10 +485,11 @@ header ul li a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   header {
     padding: 40px;
   }
+  
   .about-section {
     display: flex;
     flex-direction: column;
@@ -361,7 +514,7 @@ header ul li a:hover {
     font-size: 2em;
   }
   .about-section p {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .skills-section {
@@ -393,7 +546,7 @@ header ul li a:hover {
   }
   .skill-card img {
     width: 200px;
-    height: auto;
+    height: 100px;
     object-fit: contain;
   }
 
