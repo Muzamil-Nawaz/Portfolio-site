@@ -11,8 +11,10 @@ function Header() {
       <a href="#" className="logo">
         Muzamil Nawaz
       </a>
-      
-      <div ><button id="toggle" className="toggle"></button></div>
+
+      <div>
+        <button id="toggle" className="toggle"></button>
+      </div>
 
       <nav>
         <ul>
