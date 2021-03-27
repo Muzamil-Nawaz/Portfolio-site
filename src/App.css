@@ -31,7 +31,7 @@ header.sticky {
 }
 
 header.sticky .banner {
-  opacity: 0.5;
+  opacity: 1;
 }
 header.sticky .logo {
   position: absolute;
@@ -40,6 +40,7 @@ header.sticky .logo {
   transform: translate(0%, -50%);
 }
 header .banner {
+  opacity:0;
   position: absolute;
   top: 0;
   left: 0;
@@ -115,11 +116,14 @@ header ul li a:hover {
   justify-content: center;
   align-items: space-between;
   width: 100%;
-  min-height: 500px;
-  background-color: #03080a;
+  min-height: 600px;
+  background-color: #fff;
   border-bottom: 2px solid transparent;
 }
 
+em{
+  color:#ff9d00
+}
 .info {
   max-width: 50%;
   flex: 50%;
@@ -129,7 +133,7 @@ header ul li a:hover {
 }
 .about-section h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #0b5abd;
+  color: #F2AA4CFF;
   width: 80%;
   font-size: 3em;
 }
@@ -142,8 +146,8 @@ header ul li a:hover {
   font-size: 1.5em;
   width: 100%;
   font-family: Open Sans, sans-serif;
-  color: white;
-  animation: infoPara 1s linear;
+  color: black;
+  animation: infoPara 1.5s ease-out;
 }
 
 .about-section img {
@@ -151,22 +155,21 @@ header ul li a:hover {
   flex: 40%;
   height: 400px;
   padding: 50px;
-  animation: infoImage 1s linear;
+  animation: infoImage 1.5s linear;
 }
 
 /* Skills Section css */
 
 .skills-section {
   padding-top: 10vh;
-  background-color: #330033;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: black;
+  color: #F2AA4CFF;
   text-align: center;
 }
 
-.skills-section h2 {
-  position: absolute;
+.skills-section h2 {  
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+  color: #F2AA4CFF;
   width: 80%;
   font-size: 3em;
   margin-bottom: 50px;
@@ -186,7 +189,7 @@ header ul li a:hover {
   flex-grow: 4;
   flex-basis: 4rem;
   border-radius: 5;
-  width: 500px;
+  width: 300px;
   height: 200px;
   margin: 100px;
   text-align: center;
@@ -196,7 +199,7 @@ header ul li a:hover {
 
 .skill-card h3 {
   font-size: 1.5em;
-  color: white;
+  color: #F2AA4CFF;
   margin-bottom: 20px;
 }
 
@@ -210,10 +213,7 @@ header ul li a:hover {
 
 .projects-section {
   width: 100%;
-  background-color: #ff9d00;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover;
+  background-color:#EEA47FFF ;
   margin: 0;
   height: auto;
   text-align: center;
@@ -222,8 +222,9 @@ header ul li a:hover {
 
 .projects-section h2 {
   font-size: 3em;
-  padding-top: 100px;
-  color: white;
+  padding-top: 100px; 
+   color: #00539CFF;
+
 }
 
 .project-cards {
@@ -237,41 +238,59 @@ header ul li a:hover {
 .project-card {
   flex: 25%;
   max-width: 25%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
 
   border-radius: 10px;
   padding: 10px;
   margin: 0 50px 50px 50px;
   text-align: center;
   font-family: arial;
-  background-color: #77aa77;
+  background-color: #00539CFF;
   width: 100%;
   height: auto;
 }
 .project-card img {
   width: 100%;
-  height: auto;
+  height: 150px;
   object-fit: contain;
 }
 
-.project-card h1 {
-  color: brown;
+.project-card h1 { 
+  color: white;
 }
-
+.project-card p{
+  color:#EEA47FFF
+}
 .project-card button {
   border: 1px solid white;
   border-radius: 10px;
   outline: 0;
   padding: 12px;
-  margin: 10px;
+  margin: 10px;   
   color: white;
-  background-color: black;
+  background-color: #00539CFF;
   text-align: center;
   cursor: pointer;
   width: 70%;
   font-size: 18px;
   transition: 0.5s;
-  opacity: 0.5;
+  opacity: 0.75;
+}
+
+.technologies{
+  display:inline
+}
+.technologies p{
+  color: darkseagreen;
+  font-size: 1em;
+  margin-top:10px;
+
+}
+
+.technologies b{
+  color:white;
+  font-size: 1.25em;
+  font-style: none;
 }
 .project-card button:hover {
   opacity: 1;
@@ -518,9 +537,12 @@ footer{
 /* Responive CSS */
 
 @media (max-width: 950px) {
+  header{
+    padding:40px
+  }
   header.sticky .logo {
     left: 40px;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   header.sticky .banner {
     opacity: 0;
@@ -528,12 +550,13 @@ footer{
 
   header.sticky .toggle {
     position: fixed;
-    top: 30px;
+    top: 20px;
     right: 20px;
     bottom: 20px;
     width: 50px;
     height: 50px;
     cursor: pointer;
+    border-radius: 2px;
     background: #fff url("menu.png");
     background-size: 20px;
     background-repeat: no-repeat;
@@ -546,6 +569,9 @@ footer{
     visibility: hidden;
   }
 
+  nav{
+    transition:0.5s
+  }
   header.sticky nav ul{
     transition:0s;
   }
@@ -582,8 +608,8 @@ footer{
   }
 
   .skills-card {
-    flex: 50%;
-    max-width: 50%;
+    flex: 30%;
+    max-width: 30%;
   }
 
   .skill-card img {
@@ -596,8 +622,12 @@ footer{
     text-align: left;
   }
   .projects-card {
-    flex: 100%;
+    flex: 50%;
     max-width: 50%;
+  }
+  .projects-section h2{
+    margin-left: 40px;
+    
   }
 }
 
@@ -639,7 +669,6 @@ footer{
   }
   .skills-section h2 {
     margin-top: 20px;
-    position: relative;
     width: 80%;
     font-size: 3em;
   }
@@ -658,7 +687,6 @@ footer{
   }
   .skill-card h3 {
     font-size: 1.5em;
-    color: white;
   }
   .skill-card img {
     width: 200px;
@@ -675,6 +703,7 @@ footer{
   .project-card {
     flex: 100%;
     max-width: 60%;
+    height:auto
   }
 
   .quick-links,.contact-links{
@@ -716,19 +745,15 @@ footer{
 
 @keyframes infoImage {
   0% {
-    transform: translateX(400px);
     opacity: 0.25;
   }
   25% {
-    transform: translateX(300px);
     opacity: 0.5;
   }
   50% {
-    transform: translateX(150px);
     opacity: 0.75;
   }
   100% {
-    transform: translateX(0px);
     opacity: 1;
   }
 }

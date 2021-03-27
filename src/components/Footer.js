@@ -6,10 +6,10 @@ function Footer() {
         <div className="footer-container">   
         
           <ul className="social-links">
-            <li><a href=""><i className="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href=""><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href=""><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href=""><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/Muzamil-Nawaz"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/muzamil-nawaz-5b0922174/"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://m.facebook.com/lucky.bird.1481"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/MuzamilNawaz10"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
 
 
         </ul>
